@@ -1,0 +1,40 @@
+{
+  "name": "github-repo-deleter",
+  "version": "0.1.0",
+  "description": "Cli helper tool to fast delete many repositories from your github account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "github",
+    "CLI",
+    "delete",
+    "repository",
+    "repositories",
+    "repo",
+    "helper"
+  ],
+  "bin": {
+    "github-repo-deleter": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonnyJason/github-repo-deleter.git"
+  },
+  "author": "Lenard Frommelt",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/JhonnyJason/github-repo-deleter/issues"
+  },
+  "homepage": "https://github.com/JhonnyJason/github-repo-deleter#readme",
+  "dependencies": {
+    "@octokit/rest": "^16.28.5",
+    "chalk": "^2.4.2",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.3",
+    "inquirer": "^5.2.0"
+  }
+}
